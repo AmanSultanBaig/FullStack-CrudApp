@@ -42,9 +42,9 @@ class UserList extends Component {
         });
     }
 
-    setActiveUser(tutorial, index) {
+    setActiveUser(user, index) {
         this.setState({
-            currentUser: tutorial,
+            currentUser: user,
             currentIndex: index
         });
     }
