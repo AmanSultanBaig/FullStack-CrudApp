@@ -96,7 +96,7 @@ class User extends Component {
             .then(response => {
                 console.log(response.data);
                 this.setState({
-                    message: "The tutorial was updated successfully!"
+                    message: "The User was updated successfully!"
                 });
                 setTimeout(__ => {
                     this.props.history.push('/user-list')
